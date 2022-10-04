@@ -7,7 +7,6 @@
         <title>proyecto html</title>
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="./estilos.css">
-                 <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
           
     </head>
@@ -51,12 +50,13 @@
                         <!--es una etiqueta contenedora y es una etiqueta comodin en bloque  height="400"-->
                         <img class="tarjetaImagen" src="./assets/imagenes/steve.jpg" alt="imagen card" loading="lazy" width="300" >
                         <div class="tarjetaContenido">
+                        <a class= "Javascript" href="https://www.javascript.com/">JavaScript</a>
+                        <a class="React" href="">React</a>
                             <h3>Steve Jobs</h3>
                             <div class="tarjetaParrafo">
                                 <p>Steven Paul Jobs empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company</p>
                             </div>
-                          
-                            <a href="https://es.wikipedia.org/wiki/Steve_Jobs">Leer más</a>
+                          <a href="https://es.wikipedia.org/wiki/Steve_Jobs">Leer más</a>
                         </div>
                        
                     </div>
@@ -65,6 +65,8 @@
                         <!--es una etiqueta contenedora y es una etiqueta comodin en bloque-->
                         <img  class="tarjetaImagen" src="./assets/imagenes/bill.jpg" alt="imagen card" loading="lazy" width="300">
                         <div class="tarjetaContenido">
+                            <a class= "Javascript" href="https://www.javascript.com/">JavaScript</a>
+                            <a class="React" href="">React</a>
                             <h3>Bill Gates</h3>
                             <div class="tarjetaParrafo">
                                 <p>William Henry Gates III es un magnate empresarial, desarrolador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con difunto amigo del infancia Paul Allen.</p>
@@ -78,6 +80,8 @@
                         <!--es una etiqueta contenedora y es una etiqueta comodin en bloque-->
                         <img  class="tarjetaImagen" src="./assets/imagenes/ada.jpeg" alt="imagen card" loading="lazy" width="300">
                         <div class="tarjetaContenido">
+                            <a class="Negocios" href="">Negocios</a>
+                            <a class="Startups" href="">Startups</a>
                             <h3>Ada Lovelace</h3>
                             <div class="tarjetaParrafo">
                                 <p>Matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
@@ -91,18 +95,7 @@
           
            
         </section>
-        <!-- <section class="sectionDividida" id="lugarYFecha">
-            <div class="imagenIzq">
-
-            </div>
-            
-            <div class="contenidoDer">
-                <h3>Bs.As. Octubre</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea facere quos quia porro enim obcaecati dolore amet debitis, nihil possimus iusto alias! Nisi quasi, unde aspernatur debitis natus inventore blanditiis.</p>
-                <a href="">Conoce Más</a>
-
-            </div>
-        </section> -->
+  
         <section class="container-fluid">
             <div class="row rowImagen ">
                 <div class="col-sm-12 col-lg-6 imagen alto">
@@ -115,91 +108,39 @@
                 </div>
             </div>
 
+
+        </section>
+        <section id="nuevos">
+            <div class="nuevos">
+                <h5>CONVIÉRTETE EN UN</h5>
+                <h2>ORADOR</h2>
+                
+            </div>
         </section>
        
-        <br><br>
-       <section>
-        <!-- Clase del miercoles, formulario (Ver enlaces internos!!!!)-->
-        <table>
-            <thead>
-                <tr>
-                    <th>Orador</th>
-                    <th>Día</th>
-                    <th>Horario</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Steve Jobs</td>
-                    <td>Lun. Y Mie.</td>
-                    <td>18:30hs a 20:00hs</td>
-                </tr>
-                <tr>
-                    <td>Bill Gates</td>
-                    <td>Mart. Y Juev.</td>
-                    <td>18:30hs a 20:00hs</td>
-                </tr>
-                <tr>
-                    <td>Ada Lovelace</td>
-                    <td>Lun. Y Mie.</td>
-                    <td>10:00hs a 11:30hs</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3"> <a href="">Sacar Entradas</a> </td>
-                </tr>
-            </tfoot>
-           
-           
-        </table>
-       </section>
-       <br><br>
+        <div>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        </div>
        <section id="formulario">
          <form action="">
             <div>
                 <input type="text" placeholder="Nombre" >
                 <input type="text" placeholder="Apellido">
             </div>
+                       
             <div>
-                <label for="">Email</label>
-                <input type="email">
+              <textarea name="" id="" cols="60" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
             </div>
-            <div>
-                <label for="">Ingrese Contraseña</label>
-                <input type="password" required>
-            </div>
-           
-            <div>
-              <textarea name="" id="" cols="50" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
-            </div>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+             <p>Recuerda incluir un título para tu charla.</p>
              <div>
-                <p>indique su provincia</p>
-                <br>
-                <select >
-                    <option value="">Salta</option>
-                    <option value="">Entre Rios</option>
-                    <option value="">Santa Fe</option>
-                    <option value="">Rio Negro</option>
-                    <option value="">Cordoba</option>
-                </select>
-             </div>
-              <div>
-               <p>Terminos y Condiciones</p> 
-               <input type="checkbox" name="terminos">
-              </div>
-             <br>
              <div>
-                <input type="submit" value="Enviar Formulario">
-                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            
              </div>
            
-
-
          </form>
        </section>
-       <br>
+           <br>
       
        <footer class="colorFooter">
         <div class="container">

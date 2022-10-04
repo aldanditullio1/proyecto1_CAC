@@ -37,7 +37,7 @@ font-size: 1rem;
 .imagenMain{
 width:100%;
 }
-/*pantalla divida*/
+
 .sectionDividida{
 display: flex;
 height:70vh;
@@ -63,10 +63,7 @@ padding:2rem ;
 background-color: #343333;
 color:white;
 font-size: 1.5rem;
-/*
-display: flex;
-flex-direction: column;
-align-items: flex-start;*/
+
 }
 .contenidoDer{
 height:100%;
@@ -84,12 +81,14 @@ display:flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+text-align: center;
 }
 .padreTarjetas{
 width:100%;
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: left;
 }
 .tarjetas__flex{
 width:80%;
@@ -98,6 +97,33 @@ display:flex;
 justify-content:space-between;
 
 }
+
+.Javascript{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.React{
+background-color: rgb(26, 158, 180);
+color: white;
+text-decoration: none;
+font-weight: bold; 
+}
+
+.Negocios{
+    background-color: rgb(107, 114, 120);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Startups{
+    background-color: rgb(211, 54, 71);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .tarjeta{
 background-color: white;
 width: 30%;
@@ -112,6 +138,7 @@ border-radius: 10px;
 .tarjetaContenido{
 padding:1rem;
 }
+
 .tarjetaParrafo{
 width:80%;
 }
@@ -144,16 +171,20 @@ color:white;
     padding-right:initial;
 
 }
+.conocemas{
+    color: grey;
+}
 .link{
     display:inline-block;
     padding:1rem;
     border-bottom: 1px solid white;
     width:100%;
 }
-/*seccion principal- parrafo*/
+
 .sectionPrincipal{
     justify-content:center;
 }
+
 .parrafoPrincipal{
     line-height:1.5rem;
 }
@@ -166,7 +197,7 @@ h1{
     font-size: 2rem;
     margin-bottom:0.6rem;
 }
-/*seccion tarjetas*/
+
 .tarjetas__flex{
     flex-direction: column;
 }
@@ -192,7 +223,4 @@ h1{
 .contenido{
     font-size: 1rem;
 }
-
-
-
 }
